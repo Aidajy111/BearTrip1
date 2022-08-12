@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img\favIcon22.png" type="image/png">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Habibi&family=Mukta+Mahee:wght@700&display=swap" rel="stylesheet">
+    <title>BearTrip</title>
+</head>
+<body>
+    <header class="header" id="header1">
+        <div class="container">
+            <nav class="container__menu">
+                <ul class="container__list">
+                    <li class="button_width"><button class="container__btn" id="container__btn"></button></li>
+                    <li class="container__title line"><a href="#">О проекте</a></li>
+                    <li class="container__title line"><a href="#">Команда</a></li>
+                    <li class="container__title "><a href="#header1"><img src="img\BearTrip.svg" alt="BearTrip" class="photo-logo"></a></li>
+                    <li class="container__title line"><a href="#">Партнерам</a></li>
+                    <li class="container__title line"><a href="#">Туристам</a></li>
+                    <li class="container__button_none"><a href="#" class="container__btn-style" id="signUp">Вход</a></li>
+                    <li class="button_width"><img src="img\Profil.png" alt="" class="profil"></li>
+                </ul>
+            </nav>
+           <div class="container__vector">
+               <img src="img\lineimg.png" alt="" class="vector2">
+                <img src="img\vector.png" alt="" class="vector">
+                <img src="img\fky.png" alt="" class="vector3">
+            </div>
+
+<!-- window -->
+
+            <div class="window-menu" id="window">
+                <div class="window__box">
+                    <div class="window__body">
+                        <nav class="container__menu">
+                            <ul class="container__list">
+                                <li><button class="container__btn2" id="container__btn2"></button></li>
+                                <li class="container__title line2"><a href="#">О проекте</a></li>
+                                <li class="container__title line2"><a href="#">Команда</a></li>
+                                <li class="container__title "><a href="#header1"><img src="img\BearTrip.svg" alt="BearTrip" class="photo-logo"></a></li>
+                                <li class="container__title line2"><a href="#">Партнерам</a></li>
+                                <li class="container__title line2"><a href="#">Туристам</a></li>
+                                <li><a href="#" class="container__btn-style" id="signUpTwo">Вход</a></li>
+                                <li><img src="img\Profil.png" alt="" class="profil"></li>
+                            </ul>
+                        </nav>
+                        <div class="window__menu_info">
+                            <div class="window_text">
+                                <div class="info-btn-bottom info-box__border">
+                                    <button type="button" class="window-menu__btn--style" id="guides-dtn2">Конструктор туров</button>
+                                    <div class="guides_berger2" id="guides_berger2">
+                                        <ul>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Абхазия</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Байкал</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Дагестан</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Карелия</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Алтай</a></li>
+                                        </ul>
+                                     </div>
+                                </div>
+                                <div class="info-btn-bottom2 info-box__border">
+                                    <button type="button" class="window-menu__btn--style travel-guides" id="guides-dtn">Путеводители</button>
+                                    <div class="guides_berger" id="guides_berger">
+                                       <ul>
+                                           <li class="gides-world_margin"><a href="#" class="gides-world__style">Абхазия</a></li>
+                                           <li class="gides-world_margin"><a href="#" class="gides-world__style">Байкал</a></li>
+                                           <li class="gides-world_margin"><a href="#" class="gides-world__style">Дагестан</a></li>
+                                           <li class="gides-world_margin"><a href="#" class="gides-world__style">Карелия</a></li>
+                                           <li class="gides-world_margin"><a href="#" class="gides-world__style">Алтай</a></li>
+                                       </ul>
+                                    </div>
+                                </div>
+                                <div class="info-btn-bottom3 info-box__border">
+                                    <button type="button" class="window-menu__btn--style travel-guides travel-guides2" id="guides-dtn3">Регионы</button>
+                                    <div class="guides_berger3" id="guides_berger3">
+                                        <ul>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Абхазия</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Байкал</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Дагестан</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Карелия</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Алтай</a></li>
+                                        </ul>
+                                     </div>
+                                </div>
+                                <div class="info-btn-bottom3 info-box__border">
+                                    <button type="button" class="window-menu__btn--style" id="guides-dtn4">Спецпредложения (комплексные решения)</button>
+                                    <div class="guides_berger4" id="guides_berger4">
+                                        <ul>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Абхазия</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Байкал</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Дагестан</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Карелия</a></li>
+                                            <li class="gides-world_margin"><a href="#" class="gides-world__style">Алтай</a></li>
+                                        </ul>
+                                     </div>
+                                </div>
+                                
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+<!-- pop-up -->
+            <div class="pop-up " id="popUP">
+                <div class="pop-up__container">
+                    <div class="pop-up__body">
+                        <div class="pop-up__box-close">
+                            <div class="pop_up_clouse" id="pop_up_clouse">&#10006</div>
+                       </div>
+                        <div class="pop-up__box">
+                              <h3 class="pop-up__title">Оставить заявку</h3>
+                              <p class="pop-up__text">В течении дня с Вами свяжется менеджер</p>
+                            <form action="#" class="footer-right__form">
+                                <input type="text" class="pop-up__email footer-right__input1" placeholder="Ф.И.О" required>
+                                <input type="tel" class="pop-up__email footer-right__input1" placeholder="+7 900 900 90 90" required>
+                                <button type="submit" class="pop-up__btn">Отправить заявку</button>
+                            </form> 
+                            <p class="pop-up__text pop-up__text-style">Отправляя заявку вы соглашаетесь с <a href="#" class="pop-up__info">политикой конфиденциальности</a> сайта</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </header>
+    <section class="tour" id="tour">
+        <div class="container">
+            <div class="info">
+                <h2 class="info__title h2-style">Подобрать тур</h2>
+                <p class="info__offer">Выберите параметры своего тура</p>
+            </div>
+            <div class="parameters">
+                <div class="parameters__dates">
+                    <input type="date" class="parameters__date date-style">
+                    <input type="date" class="parameters__date date-style2">
+                </div>
+                <div class="adults">
+                    <div class="adults__box box-top-margin">
+                        <p class="adults__text">Количество взрослых</p>
+                        <span class="btn-num"><img src="img\arroe-bottom.svg" alt=""></span>
+                        
+                    </div>                  
+        <!-- karousel -->
+                    <div class="adults__slides">
+                        <button type="button" class="btn-styles back" id="back-one" disabled=""><img src="img\Arrow left.svg" alt=""></button>
+                        <button type="button" class="btn-styles next" id="next-one" disabled=""><img src="img\Arrow right.svg" alt=""></button>
+                       <div class="slider" id="nubers">
+
+                                <input type="text" class="tab-btn" value="1">
+                               
+
+                       </div>
+                       <!-- <p class="big-ten">Больше 10 нельзя</p> -->
+                    </div>
+                    
+        <!-- karousel -->
+                </div>
+                <div class="children">
+
+                    <div class="adults__box box-top-margin">
+                        <p class="adults__text ">Количество детей</p>
+                        <span class="btn-num"><img src="img\arroe-bottom.svg" alt=""></span>
+                    </div>
+                    <div class="adults__slides adults__slides-two">
+                    
+                        <button type="button" class="btn-styles back" id="back-children" disabled=""><img src="img\Arrow left.svg" alt=""></button>
+                        <button type="button" class="btn-styles next" id="next-children" disabled=""><img src="img\Arrow right.svg" alt=""></button>
+                        <div class="slider" id="nubers">
+ 
+                                 <input type="text" class="tab-btn tab-btn-two" value="1">
+                                
+ 
+                        </div>
+                     </div>
+               </div> 
+                <div class="buton-tour-box box-top-margin">
+                        <a href="#" class="buton-tour ">Подобрать тур</a>
+                </div>
+            </div>
+            <div class="top-lint">
+                <h4 class="title-top">спецпредложение</h4>
+                <div class="arrow-top">
+                    <a href="#">
+                        <img src="img\leeft.svg" alt="" class="Arrowleft ArrowUsStyle">
+                    </a>
+                    <a href="#">
+                        <img src="img\riight.svg" alt="" class="Arrow-right ArrowUsStyle">
+                    </a>
+                </div>
+            </div>
+            <div class="gpoto">
+                <a href="#" class="photo1 photo0">
+                    <span class="effect-style">Популярное</span>
+
+                    <div class="bottom-info">
+                        <h5 class="h5-style">Кавказ</h5>
+                        <p class="photo-date">08.05.2022</p>
+                    </div>
+                    <!-- <img src="img\vse-o-pohodah-v-gory-1 1.png" alt=""> -->
+                </a>
+                <a href="#" class="photo2">
+                    <span class="effect-style">Скидка 15%</span>
+                    <div class="bottom-info">
+                        <h5 class="h5-style">Кабардино-Балкария</h5>
+                        <p class="photo-date">08.05.2022</p>
+                    </div>
+                </a>
+                <a href="#" class="photo3">
+                    <div class="bottom-info">
+                        <h5 class="h5-style">Джилы су</h5>
+                        <p class="photo-date">c 08.05.2022 по 21.05.2022</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="vector27">
+        <img src="img\Vector 27.png" alt="" class="vector27-photo">
+    </div>
+    <section class="routes">
+        <div class="container">
+            <h2 class="h2-style routes-title">Уникальные маршруты</h2>
+            <div class="common-box">
+                    <div class="common-box__photo">
+                        <a href="#" class="effect-style">Популярное</a>
+                 </div>
+                 <div  class="common-box__info">
+                     <p class="common-box__info-title">Описание</p>
+                     <p class="common-box__info-subtitle">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, nam libero tempore, cum soluta nobis est eligendi optio Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, nam libero tempore, cum soluta nobis est eligendi optio Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, nam libero tempore, cum soluta nobis est eligendi optio Temporibus autem quibusdam et aut officiis debi</p>
+
+                     <div class="common-box__registr">
+                         <form action="#">
+                             <input type="email" name="emeil" placeholder="Ваш e-mail" required class="redisr-email">
+                             <button type="button" class="common-box__btn">Узнать подробнее</button>
+                         </form>
+                     </div>
+                 </div>
+            </div>
+            <div class="common-box common-box-top">
+                    <div class="common-box__photo2">
+                        <a href="#" class="effect-style">Популярное</a>
+                </div>
+                <div  class="common-box__info">
+                    <p class="common-box__info-title">Описание</p>
+                    <p class="common-box__info-subtitle">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, nam libero tempore, cum soluta nobis est eligendi optio Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, nam libero tempore, cum soluta nobis est eligendi optio Temporibus   autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, nam libero tempore, cum soluta nobis  est eligendi optio Temporibus autem quibusdam et aut officiis debi</p>
+
+                    <div class="common-box__registr">
+                        <form action="#">
+                            <input type="email" name="emeil" placeholder="Ваш e-mail" required class="redisr-email">
+                            <button type="button" class="common-box__btn">Узнать подробнее</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="button_posistion">
+                <button href="#" class="common-box__btn commor__btn-style ">Смотреть все регионы</button>
+            </div>
+        </div>
+    </section>
+    <section class="reviews-box">
+        <div class="container">
+            <h3 class="reviews__title">Отзывы о нашем сервисе</h3>
+        </div>
+        <div class="container2">
+            <img src="img\BearTrip.png" class="bearTrip" alt="">
+            <div class="reviews">                
+                <div class="reviews__photo reviews__degree">
+                    <img src="img\potoName22.png" alt="">
+                </div>
+                <div class="reviews__photo reviews__degree2">
+                    <img src="img\photoname3.png" alt="">
+                </div>
+                <div class="reviews__photo reviews__degree3">
+                    <img src="img\potoName1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Travel">
+        <div class="container">
+                  <h4 class="travei__title">Путеводители</h4>
+            <div class="travei_img">
+                <div class="img__box">
+                    <img src="img\kavkas.png" alt="" class="kavkas">
+                    <div class="price">
+                        <span class="ptics__num">890 р</span>
+                        <a href="#" class="prics__btn">Купить</a>
+                    </div>
+                </div>
+                <div class="img__box">
+                    <img src="img\kavkas2.png" alt="" class="kavkas">
+                    <div class="price">
+                        <span class="ptics__num">890 р</span>
+                        <a href="#" class="prics__btn">Купить</a>
+                    </div>
+                </div>
+                <div class="img__box">
+                    <img src="img\kavkas.png" alt="" class="kavkas">
+                    <div class="price">
+                        <span class="ptics__num">890 р</span>
+                        <a href="#" class="prics__btn">Купить</a>
+                    </div>
+                </div>
+                <div class="img__box">
+                    <img src="img\kavkas3.png" alt="" class="kavkas">
+                    <div class="price">
+                        <span class="ptics__num">890 р</span>
+                        <a href="#" class="prics__btn">Купить</a>
+                    </div>
+                </div>
+                <div class="img__box">
+                    <img src="img\kavkas4.png" alt="" class="kavkas">
+                    <div class="price">
+                        <span class="ptics__num">890 р</span>
+                        <a href="#" class="prics__btn">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <img src="img\footerBachround.png" alt="" class="footwrBG">
+        <div class="container">
+            <div class="footer-box">
+                <div class="footer__img-box">
+                    <img src="img\BearTrip2.png" alt="" class="baertrip-img2">
+                    <p class="footer-subtitle">При полном или частичном использовании материалов с сайта ссылка на источник обязательна</p>
+                </div>
+                <div class="user">
+                    <h4 class="user__title">Пользователям</h4>
+                    <ul class="ucer__list">
+                        <li >
+                            <a href="#" class="user__list__text">Спецпредложения</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Конструктор туров</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Партёрам</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Вход</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Регистрация</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">О проекте</a>
+                        </li>
+                        <li>
+                            <a href="#" class="user__list__text">Отзывы</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="user">
+                    <h4 class="user__title">Информация</h4>
+                    <ul class="ucer__list">
+                        <li >
+                            <a href="#" class="user__list__text">Как купить тур</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Путеводители</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Информация о сервисе</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Корпоративным клиентам</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Политика возврата</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">вопросы и ответы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="user__list__text">Акции</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="user">
+                    <h4 class="user__title">Полезное</h4>
+                    <ul class="ucer__list">
+                        <li >
+                            <a href="#" class="user__list__text">Новости</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">О нас</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Контакты</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Отзывы</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">Политика конфиденциальности</a>
+                        </li>
+                        <li >
+                            <a href="#" class="user__list__text">галерея</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="masage">
+                    <span class="masage-title">Наши социальные сети</span>
+                    <div class="masage__img">
+                        <a href="#"><img src="img\inst.svg" alt=""></a>
+                        <a href="#"><img src="img\tekegrem.svg" alt=""></a>
+                        <a href="#"><img src="img\watsap.svg" alt=""></a>
+                        <a href="#"><img src="img\vk.svg" alt=""></a>
+                    </div>
+                    <span class="masage-title masage-title2">Контакты</span>
+                    <div class="contacte">
+                        <img src="img\phone.svg" alt="">
+                        <a href="tel:88000000000" class="masage__tel">8 800 000-00-00</a>  
+                    </div>
+                    <div class="masage__mail">
+                        <img src="img\mail.svg" alt="">
+                        <a href="mailto:Pochta@gmail.com" class="masage__tel">Pochta@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </footer>
+    <script src="js\jquery-3.6.0.min.js"></script>
+    <script src="js\script.js"></script>
+</body>
+</html>
